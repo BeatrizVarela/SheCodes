@@ -1,0 +1,177 @@
+Heading:
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
+
+There's no h7 - it doesn't exist
+
+Paragraph
+<p> </p>
+
+Italic (emphasis)
+<em> </em>
+
+Bold
+<strong> </strong>
+
+New line (break)
+<br> </br>
+
+Line (no need to close)
+<hr>
+
+List 
+<ul> </ul> bullets
+<ol> </ol> numbers
+<li> </li>
+
+Anchor link
+<a> </a> 
+
+HTML attributes
+<a href="(website)">
+  Lisbon
+</a> 
+
+<a href="(website)" target="_blank">
+  Lisbon
+</a>
+
+Image (self closing)
+
+<img  src=""> 
+
+<p> type
+<p> </p> element
+
+
+<h1>
+  She Codes
+</h1>
+<h2>
+  Hello World
+</h2>
+<p>
+  Some <em>text</em>
+  <br>Some spots left</br>
+</p>
+<hr>
+<em>
+  Text
+</em>
+<p><strong>
+  Text
+</strong></p>
+<ul>
+  <li>Lisbon</li>
+  <li>Paris</li>
+</ul>
+<ol>
+  <li>Lisbon</li>
+  <li>Paris</li>
+</ol>
+
+
+
+
+
+
+
+
+<h1>
+  She Codes
+</h1>
+<ul>
+  <li>Day1</li>
+  <li>Day2</li>
+  <li>Day3</li>
+  <li>Day4</li>
+</ul>
+<hr>
+<p>
+<strong>
+  More info
+</strong>
+</p>
+
+
+
+
+<h1>
+  She Codes Homework
+</h1>
+<p>
+<strong>
+  Coding workshop
+</strong>
+</p>
+<hr>
+<ul>
+  <li>
+    <a href="https://shecodes.io/day1">Day1</a>
+  </li>
+  <li>
+    <a href="https://shecodes.io/day1">Day2</a>
+  </li>
+  <li>
+    <a href="https://shecodes.io/day1">Day3</a>
+  </li>
+</ul>
+<hr>
+<a href="https://shecodes.io" target="_blank">
+  <img  src="http://helloflo.com/wp-content/uploads/2016/03/shutterstock_322577240.jpg">
+</a>
+
+
+
+
+<h1 style="text-align: center;">She Codes Homework</h1>
+
+<p>
+Team  Program  Certificate  ?? Workshops  ????? Coders  ?? Plus
+</p>
+
+
+
+<header id="header">
+  <div class="content">
+    <div class="header-inner">
+      <a href="/">
+        <img alt="She codes" src="/assets/branding/logo--header-b2e3ad5c6f34ff1144d4cba3a845d13301754c33cea577e47372021f1ddea720.png">
+      </a>
+      <ul class="hidden-sm hidden-xs">
+        <li>
+          <a href="/#mission">Mission</a>
+        </li>
+        <li>
+          <a href="/#team">Team</a>
+        </li>
+        <li>
+          <a href="/#program">Program</a>
+        </li>
+        <li>
+          <a href="/#certificate">Certificate</a>
+        </li>
+        <li>
+          <a class="emoji" href="/workshops">
+            ?? <span>Workshops</span>
+</a>        </li>
+        <li>
+          <a class="emoji" href="/coders">
+            ????? <span>Coders</span>
+</a>        </li>
+        <li>
+          <a class="emoji" href="/plus">
+            ?? <span>Plus</span>
+</a>        </li>
+      </ul>
+      <div class="ctas hidden-xs clearfix">
+
+        <a class="cta pull-left btn btn-secondary" href="/#subscribe">Stay updated</a>
+      </div>
+    </div>
+  </div>
+</header>
