@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            window.onload = function(){
+                popUp();
+            }
+            function popUp() {
+                var yearBirth = prompt('What is your year of birth?');
+                if (yearBirth != null) {
+                    var date = new Date();
+                    var yearToday = date.getFullYear();
+                    var userAge = yearToday - yearBirth;
+                    alert("You're " + userAge + " years old!");
+                }
+            }
+        </script>
+    </head>
+</html>

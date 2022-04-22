@@ -1,0 +1,20 @@
+homework:
+clean up the last homework
+recreate the hover transition
+JS She Codes/day 2
+
+html classes
+
+
+        border-radius: 20px 0px 12px 5px
+        border-radius: 50%
+
+Java Script
+
+Variable
+let x = 1;
+let y = 3;
+let name = 'Will';
+const city = 'Lisbon';
+
+15:40 22/09/2018
