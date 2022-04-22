@@ -1,0 +1,56 @@
+product management
+'inspired'
+marty cagan
+
+'the lean startup'
+eric ries
+
+----
+
+matt
+js
+
+console.log (variable name)
+
+----
+
+FUNCTIONS
+
+function go() {
+    alert('hi');
+}
+
+go();
+
+----
+
+function substract(numberOne, numberTwo) {
+	alert(numberOne - numberTwo);
+}
+substract(10, 7)
+
+----
+
+document
+city = document.querySelector('.city')
+cities = document.querySelectorAll('.cities')
+
+----
+
+document.querySelector('.blue').addEventListener('click', function() {
+	alert('test');
+});
+
+----
+
+github
+
+tuesday midnight
+
+
+
+
+
+
+
+

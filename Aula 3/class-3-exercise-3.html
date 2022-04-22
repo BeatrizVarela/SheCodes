@@ -1,0 +1,20 @@
+<html>  
+    <body>      
+        <script>
+            function canApply(yearOfBirth) {
+
+            let age = (new Date()).getFullYear() - yearOfBirth;
+
+            if (age < 18) {
+                alert('You cannot apply to She Codes ☹');
+            } else {
+                alert('You can apply to She Codes 😀!');
+            }
+        }
+
+            let birthYear = prompt('What year were you born?');
+            birthYear = parseInt(birthYear, 10);
+        canApply(birthYear);
+        </script>
+    </body>
+</html>
