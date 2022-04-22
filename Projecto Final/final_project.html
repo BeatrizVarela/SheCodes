@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=KoHo' rel='stylesheet'>
+        <style>
+            body {
+            background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+            }
+
+            .Momo {
+                text-align: center;
+                color: #4c4c4c;
+                font-family: 'Amatic SC';
+                font-weight: bold;
+                font-size: 72px;
+                line-height: 48px;
+            }
+
+            .text {
+                text-align: center;
+                color: #666666;
+                font-family: 'KoHo';
+                font-size: 28px;
+            }
+
+            p {
+                text-align: center;
+                color: #666666;
+                font-family: 'KoHo';
+                font-size: 18px;
+            }
+
+            #momo1 {
+                border-radius: 12px;
+                margin: 0 auto;
+                display: block;
+                width: 20%;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            #momo1:hover {
+                opacity: 0.7;
+            }
+
+            #momo2 {
+                border-radius: 12px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                cursor: pointer;
+                transition: 0.3s;
+                position: relative;
+                left: 35%;
+            }
+  
+            #momo2:hover {
+                opacity: 0.7;
+            }
+
+            #momo3 {
+                border-radius: 12px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                cursor: pointer;
+                transition: 0.3s;
+                position: relative;
+                left: 35%;
+            }
+
+            #momo3:hover {
+                opacity: 0.7;
+            }
+
+            .pictures-momo li {
+                display: inline-block;
+                padding: 20px;
+            }
+
+            #momo4 {
+                border-radius: 12px;
+                margin: 0 auto;
+                display: block;
+                width: 20%;
+            }
+
+            /* The Modal (background) */
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 100px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+            }
+
+            /* Modal Content (image) */
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+            }
+
+            /* Caption of Modal Image */
+            #caption {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+                text-align: center;
+                color: #ccc;
+                padding: 10px 0;
+                height: 150px;
+            }
+
+            /* Add Animation */
+            .modal-content, #caption {    
+                -webkit-animation-name: zoom;
+                -webkit-animation-duration: 0.6s;
+                animation-name: zoom;
+                animation-duration: 0.6s;
+            }
+
+            @-webkit-keyframes zoom {
+                from {-webkit-transform: scale(0)} 
+                to {-webkit-transform: scale(1)}
+            }
+
+            @keyframes zoom {
+                from {transform: scale(0.1)} 
+                to {transform: scale(1)}
+            }
+
+            /* The Close Button */
+            .close {
+                position: absolute;
+                top: 15px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            /* 100% Image Width on Smaller Screens */
+            @media only screen and (max-width: 700px){
+                .modal-content {
+                    width: 100%;
+                }
+            }
+
+            button {
+                background: #ffc6a0;
+                font-family: 'Amatic SC';
+                font-weight: bold;
+                border: none;
+                font-size: 36px;
+                border-radius: 12px;
+                text-decoration: none;
+                color: #ffffff;
+                display: block;
+                padding: 10px 20px;
+                transition: opacity 150ms ease;
+                cursor: pointer;
+                box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+                margin: 30px auto;
+            }
+
+            button:hover {
+                opacity: 0.7;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="Momo">Momo</h1>
+        <h2 class="text">The sweet peachy Syrian Hamster</h2>
+        <br>
+        <hr>
+        <br>
+        <img id="momo1" src="https://tinyurl.com/y7xqu7ra" alt="Isn't she the cutest?!">
+        <br>
+        <span>
+            <p>
+                <strong>Momo</strong> is an adorable Syrian Hamster, who is 1 year and 6 months old. She loves to take sand baths, dig her cage floor and cheese.
+            </p>
+            <p>
+                She was rescued in <strong>Pedroso</strong>, <strong>Vila Nova de Gaia</strong>, and currently lives is <strong>Lisbon</strong>. She has also travelled to <strong>Algarve</strong> last year, which makes her a super tourist rodent.
+            </p>
+            <p>
+                She has a <em>boyfriend</em> - <strong>Pompom</strong> - who she likes to bite and fight with (and would love to kill him too). They had 7 babies back in March, and 2 of them live with her: <strong>Hoshi</strong> and <strong>Tama</strong>.
+            </p>
+        </span>
+        <ul class="pictures-momo">
+            <li>
+                <img id='momo2' src="http://i.imgur.com/qp40aYg.jpg" alt="The sweethearts">
+            </li>
+            <li>
+                <img id='momo3' src="https://tinyurl.com/ycll7r5e" alt="Family portrait">
+            </li>
+        </ul>
+        <hr>
+        <br>
+        <span>
+            <p>
+                <strong>Syrian Hamsters</strong> (or <strong>Golden Hamsters</strong>) are originate from Syria and were first described and officially named in 1839, by George Robert Waterhouse, a British zoologist.
+            </p>            
+            <p>
+                Waterhouse's original hamster was a female named <strong>Cricetus Auratus</strong>, meaning "golden hamster". The skin of the animal is kept at the Natural History Museum in London. <small>(like, ew, c'mon!)</small>
+            </p>
+            <p>
+                <small>Want to know more? <a href="https://en.wikipedia.org/wiki/Golden_hamster" target="_blank">Click here!</a></small>
+            </p>
+        </span>
+        <br>
+        <img id='momo4' src="https://media.giphy.com/media/fH3LmlxRlASQxUeHXq/giphy.gif">
+        <button class="btn">
+            <a href="https://www.google.pt/search?q=i+need+a+hamster+god+damn+it&oq=i+need+a+hamster+god+damn+it&aqs=chrome..69i57.6070j0j4&sourceid=chrome&ie=UTF-8" target="_blank">Adopt a hamster today and find happiness
+            </a>
+        </button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+                <span class="close">×</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+      
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+    
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('momo1');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+    
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+    
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+
+            // Get the modal
+            var modal = document.getElementById('myModal');
+    
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('momo2');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+
+            // Get the modal
+            var modal = document.getElementById('myModal');
+    
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('momo3');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+        </script>
+    </body>
+</html>
