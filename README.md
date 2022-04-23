@@ -4,9 +4,15 @@
 
 # INTRODUCTION
 
-SheCodes was started in late 2017 in Lisbon, Portugal. The aim is to teach women how to code to work towards decreasing the gender gap in the tech industry. Matt Delac originally intended to teach only 10 women how to code. However, in the first workshops, the students loved the idea of SheCodes much more than Matt could’ve imagined.
+SheCodes was started in late 2017 in Lisbon, Portugal. The aim is to teach women
+how to code to work towards decreasing the gender gap in the tech industry.
+Matt Delac originally intended to teach only 10 women how to code. However, in
+the first workshops, the students loved the idea of SheCodes much more than
+Matt could’ve imagined.
 
-I had my first SheCodes class on **September 15th, 2018**, and each class was held once a week, for four weeks. All classes were given at Second Home, at Time Out Market - Mercado da Ribeira, Lisbon.
+I had my first SheCodes class on **September 15th, 2018**, and each class was
+held once a week, for four weeks. All classes were given at Second Home, at
+Time Out Market - Mercado da Ribeira, Lisbon.
 
 For more information, visit these pages:
 
@@ -24,7 +30,8 @@ For more information, visit these pages:
 - HTML:
   - Elements, attributes, classes, and container elements.
 - CSS:
-  - Selectors, properties, colors, positioning, spacing, borders, pseudo-selectors, and default styling.
+  - Selectors, properties, colors, positioning, spacing, borders,
+    pseudo-selectors, and default styling.
 - Developer tools and coding editor:
   - VS Code, Prettier, Figma, Trello, and Slack.
 - Product Management
@@ -32,7 +39,8 @@ For more information, visit these pages:
 ### Week 2
 
 - JavaScript:
-  - in HTML, in browser, variables, If and If Else statements, logical operators, functions, selectors, events and refactoring.
+  - in HTML, in browser, variables, If and If Else statements,
+    logical operators, functions, selectors, events and refactoring.
 
 ### Week 3
 
